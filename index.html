@@ -10,7 +10,49 @@
         section { background-color: white; margin: 20px 0; padding: 20px; borderradius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); } 
         footer { text-align: center; margin-top: 50px; padding: 20px; border-top: 1px solid #eee; color: #777; } 
         .colaborador { font-weight: bold; color: #007bff; } 
-    </style> 
+        body {
+          font-family: Arial, sans-serif;
+          background: #f9f9f9;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .servicios {
+          text-align: center;
+          padding: 50px 20px;
+        }
+    
+        .servicios h2 {
+          font-size: 2rem;
+          margin-bottom: 30px;
+          color: #333;
+        }
+    
+        .contenedor-servicios {
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+          flex-wrap: wrap;
+        }
+    
+        .servicio {
+          background: white;
+          border-radius: 8px;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+          padding: 20px;
+          width: 250px;
+        }
+    
+        .servicio h3 {
+          color: #007BFF;
+          margin-bottom: 10px;
+        }
+    
+        .servicio p {
+          color: #555;
+          font-size: 0.95rem;
+        }
+      </style>
 </head> 
 <body> 
     <header> 
@@ -20,9 +62,28 @@
  
     <section id="introduccion"> 
         <h2>Introducción al Proyecto</h2> 
-        <p>Esta es una página web simple creada para demostrar la colaboración en 
-GitHub y el uso de contenedores Docker.</p>     </section> 
-     <section id="contacto"> 
+        <p>Esta es una página web simple creada para demostrar la colaboración en GitHub y el uso de contenedores Docker.</p>     
+    </section>
+
+     <section class="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="contenedor-servicios">
+      <div class="servicio">
+        <h3>Diseño Web</h3>
+        <p>Creación de sitios modernos y responsivos para todo tipo de negocios.</p>
+      </div>
+      <div class="servicio">
+        <h3>Marketing Digital</h3>
+        <p>Campañas publicitarias en redes sociales, Google Ads y más.</p>
+      </div>
+      <div class="servicio">
+        <h3>Soporte Técnico</h3>
+        <p>Atención especializada para resolver problemas técnicos 24/7.</p>
+        <p><span class="colaborador">Colaborador: Jaime Jhair Davila Garcia</span></p>
+      </div>
+    </div>
+  </section>
+  <section id="contacto"> 
         <h2>Contáctanos</h2> 
         <p>¿Tienes alguna pregunta? ¡Estamos aquí para ayudarte!</p> 
         <ul> 
