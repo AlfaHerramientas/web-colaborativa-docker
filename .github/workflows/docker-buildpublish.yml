@@ -3,7 +3,7 @@ name: Construir y Publicar Imagen Docker de la Web
 on:
   push:
     branches:
-      - main  # Este workflow se activa cada vez que hay un push a la rama 'main'
+      - main
 
 permissions:
   contents: read
